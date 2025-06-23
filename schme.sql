@@ -1,15 +1,15 @@
--- Create Database
-CREATE DATABASE LibraryDB;
+
+CREATE DATABASE if not exists LibraryDB;
 USE LibraryDB;
 
--- Authors Table
+
 CREATE TABLE Authors (
     AuthorID INT AUTO_INCREMENT PRIMARY KEY,
     Name VARCHAR(100) NOT NULL,
     Bio TEXT
 );
 
--- Books Table
+
 CREATE TABLE Books (
     BookID INT AUTO_INCREMENT PRIMARY KEY,
     Title VARCHAR(150) NOT NULL,
