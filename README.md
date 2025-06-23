@@ -30,12 +30,6 @@ Key Concepts Used:
 - Composite Key in `BookAuthors`
 
 ---
-
-ER Diagram
-![ER Diagram]
-
----
-
  Interview Prep
 
 1. What is normalization?
